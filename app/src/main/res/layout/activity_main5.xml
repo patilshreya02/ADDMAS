@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="396dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="75dp"
+        app:srcCompat="@drawable/logo" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-4dp"
+        android:background="@android:color/black"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:text="Time:"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <DigitalClock
+            android:id="@+id/time1"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/shift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:text="Shift : "
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/shiftshow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:background="@android:color/transparent"
+            android:text="LOGOUT"
+            android:textColor="@color/blue"
+            android:textSize="20dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="625dp"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="205dp"
+        android:background="#000000"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="281dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="40dp"
+            android:background="@color/white"
+            android:text="INPROCESS INSPECTION REPORT"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/oplogo" />
+        <TextView
+            android:id="@+id/userid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="User ID:"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Name"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="872dp"
+        android:layout_height="560dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="117dp"
+        app:srcCompat="@drawable/img_draw" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="481dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="195dp"
+        android:text="COMPONENT DRAWING"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

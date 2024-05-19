@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/black"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/groupmain" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="BREAKDOWN SLIP"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:layout_marginStart="250dp"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@android:color/black"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/loginb"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:background="@android:color/transparent"
+            android:text="BACK"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:background="@android:color/transparent"
+            android:text="HELP"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="200dp"
+            android:layout_height="79dp"
+            android:background="@android:color/transparent"
+            android:text="CONTACT US"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:background="@android:color/transparent"
+            android:text="LOGOUT"
+            android:textColor="@color/blue"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/machine_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Machine No. : 001"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:id="@+id/user1"
+            android:textSize="25dp"
+            android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:id="@+id/user2"
+                android:textSize="25dp"
+                android:textColor="@color/black"/>
+            <Button
+                android:id="@+id/history"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:padding="10dp"
+                android:text="View History"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+        </GridLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nature of Problem"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/userNameEditText"
+            android:layout_width="508dp"
+            android:layout_height="50dp"
+            android:hint="Enter the details"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:text="Date of Breakdown"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text=""/>
+
+            <Button
+                android:id="@+id/dateb"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:padding="10dp"
+                android:text="Select DATE"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Time of Breakdown"
+                android:textSize="30dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="160dp"
+                android:id="@+id/timeshow"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text=""/>
+
+            <Button
+                android:id="@+id/timeshowb"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:padding="10dp"
+                android:text="Select TIME"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </GridLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cause of Breakdown"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/entercausebd"
+            android:layout_width="508dp"
+            android:layout_height="50dp"
+            android:hint="Enter the details"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spares Used"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/enterspare"
+            android:layout_width="508dp"
+            android:layout_height="50dp"
+            android:hint="Enter the the list of spare parts"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Time of Breakdown"
+                android:textSize="30dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/totalbdtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter total hours of Breakdown"
+                android:text=""
+                android:textSize="30dp" />
+        </GridLayout>
+        <Button
+            android:id="@+id/submitbg"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Submit"
+            android:textSize="30dp"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:padding="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="right"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

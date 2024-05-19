@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="mechanical_text"><![CDATA[ MECHANICAL\n
+\n
+        1. Examine all drive belts for correct tension and any signs of damage. Adjust tension as needed.\n
+        2. Check the filter of the gearbox lubrication system. Clean or replace it if required.\n
+        3. Evaluate the coolant condition and replace it if necessary.\n
+        4. Inspect the jaws for jamming and lubricate them if needed.]]></string>
+
+
+    <string name="mechanical_text2"><![CDATA[ ELECTRICAL \n
+\n
+   1. Inspect all motors to ensure they are functioning correctly.\n
+   2. Re-torque the bolting of motors and clean their surroundings.\n
+   3. Verify the proper functioning of all electromagnetic components.\n
+   4. Check and replace brushes on rotating components as needed.\n
+   5. For instance, replace the telescopic brush of the clutch, carbon brushes of DC motors and generator.  ]]></string>
+
+    <string name="hydraulic_text"><![CDATA[ HYDRAULIC \n
+\n
+    1. Inspect for any signs of leakage in the hydraulic system.\n
+    2. Check the oil level in the hydraulic system.\n
+    3. Ensure the chiller unit is functioning effectively.\n
+    4. Examine pipes for any damage.\n
+    5. Listen for any abnormal sounds coming from the hydraulic pump.\n
+    6. Clean the hydraulic filter.\n
+    7. Check the pressure settings in the hydraulic system.\n  ]]></string>
+
+    <string name="additional_text"><![CDATA[ ADDITIONAL MONTHLY MAINTENANCE TASKS \n
+\n
+   1. Clean or replace air filters.\n
+   2. Check and clean coolant filters.\n
+   3. Clean radiators and cooling fans.\n
+   4. Review oil fill checklists for any signs of unusual oil consumption.\n
+   5. Remove and clean the chuck and jaws.\n
+   6. Grease and adjust chains or conveyors.\n  ]]></string>
+
+
+    <string name="last"><![CDATA[ DO YOU WANT TO SUBMIT OR CHECK ONCE AGAIN ? \n
+\n]]></string>
+    <string name="first_shift">1st Shift</string>
+    <string name="second_shift">2nd Shift</string>
+    <string name="third_shift">3rd Shift</string>
+    <string name="report_submitted_success">Report submitted successfully!</string>
+    <string name="report_submit_failure">Failed to submit report: %1$s</string>
+    <string name="end_shift">End Shift</string>
+    <string name="num">Enter the Number of Jobs Completed</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="jobs_completed_saved">Jobs completed saved to Firestore</string>
+    <string name="jobs_completed_save_failure">Failed to save jobs completed: %1$s</string>
+</resources>

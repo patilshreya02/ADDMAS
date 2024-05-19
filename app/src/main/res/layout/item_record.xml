@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/causeOfBDTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cause of BD: " />
+
+    <TextView
+        android:id="@+id/sparesTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spares: " />
+
+    <TextView
+        android:id="@+id/timetextTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time: " />
+
+    <TextView
+        android:id="@+id/textView1TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User: " />
+
+    <TextView
+        android:id="@+id/hrstextTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hrs: " />
+
+    <TextView
+        android:id="@+id/datetextTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date: " />
+
+    <TextView
+        android:id="@+id/natureOfProblemTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nature of Problem: " />
+
+</LinearLayout>

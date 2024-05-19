@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "238520466208",
+    "firebase_url": "https://admass-login-register-default-rtdb.firebaseio.com",
+    "project_id": "admass-login-register",
+    "storage_bucket": "admass-login-register.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238520466208:android:df3d14ca0740ec1c013545",
+        "android_client_info": {
+          "package_name": "com.example.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7o8Eno4mAqvRykIgIB2GYnTi42gViRJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238520466208:android:09651291fba4fa0d013545",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7o8Eno4mAqvRykIgIB2GYnTi42gViRJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
